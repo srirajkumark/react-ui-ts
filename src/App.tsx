@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Customer from './components/Customer';
 import { CustomerClass } from './components/CustomerClass';
+import Employee from './components/Employee';
 
 function App() {
   return (
@@ -18,15 +19,21 @@ function App() {
             </div>
           </div>
 
-          <div className="row">
+          {/* <div className="row">
             <div className="col">
               <Customer name={'Rajan'} age={25} title={'Software Engineer'}/>
             </div>
-          </div>
+          </div> */}
+
+          {/* <div className="row">
+            <div className="col">
+              <CustomerClass name={'Raj'} age={26} title={'Software Engineer'}/>
+            </div>
+          </div> */}
 
           <div className="row">
             <div className="col">
-              <CustomerClass name={'Raj'} age={26} title={'Software Engineer'}/>
+              <Employee/>
             </div>
           </div>
 
