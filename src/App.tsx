@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import Customer from './components/Customer';
+import { CustomerClass } from './components/CustomerClass';
 
 function App() {
   return (
@@ -22,6 +23,13 @@ function App() {
               <Customer name={'Rajan'} age={25} title={'Software Engineer'}/>
             </div>
           </div>
+
+          <div className="row">
+            <div className="col">
+              <CustomerClass name={'Raj'} age={26} title={'Software Engineer'}/>
+            </div>
+          </div>
+
         </div>
       </div>
     </React.Fragment>
