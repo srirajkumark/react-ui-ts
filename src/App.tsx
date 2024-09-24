@@ -4,9 +4,19 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <h2 className='text-primary'>App Component</h2>
-      <button className='btn btn-primary'>Start</button>
-      <i className='fa fa-home fa-2x'></i>
+      <div className="container mt-3">
+        <div className="grid">
+          <div className="row">
+            <div className="col">
+              <p className="h3 fw-bold text-success">App Component</p>
+              <p className="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, incidunt possimus quas adipisci eum tenetur quis sint ut animi ullam voluptatibus facere vero aliquam, qui quibusdam dignissimos non voluptate velit!</p>
+              <button className="btn btn-success btn-sm">
+                <i className="fa fa-book"></i>&nbsp;&nbsp;Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 }
