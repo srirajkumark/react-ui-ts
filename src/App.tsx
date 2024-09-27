@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Counter from './components/Counter';
 
 function App() {
   return (
@@ -15,7 +16,11 @@ function App() {
               </button>
             </div>
           </div>
-
+          <div className="row">
+            <div className="col">
+              <Counter/>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
