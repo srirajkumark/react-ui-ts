@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Counter from './components/Counter';
-import Greetings from './components/Greetings';
+// import Counter from './components/Counter';
+// import Greetings from './components/Greetings';
+import LoginForm from './components/LoginForm';
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
               </button>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col">
               <Counter/>
             </div>
@@ -25,6 +26,11 @@ function App() {
           <div className="row">
             <div className="col">
               <Greetings/>
+            </div>
+          </div> */}
+          <div className="row">
+            <div className="col">
+              <LoginForm/>
             </div>
           </div>
         </div>
