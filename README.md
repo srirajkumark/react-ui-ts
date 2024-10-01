@@ -1,10 +1,38 @@
 # React with TypeScript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this we mainly covered the main concepts related to React using TypeScript.
 
-## Available Scripts
+## List of Concepts
 
-In the project directory, you can run:
+In the project directory, you can find:
+
+### 1. Create React App Setup
+
+### 2. Create React App Setup
+
+### 3. BootStrap and Font-Awesome Setup
+
+### 4. Props using Functional Component
+
+### 5. Props using Class Component
+
+### 6. State using Functional Component
+
+### 7. State using Class Component
+
+### 8. Events Handling Setup
+
+### 9. Events Handling Without Parameters - Basic Counter
+
+### 10. Events Handling With Parameters - Wish Message
+
+### 11. Form Handling Setup
+
+### 12. Form Handling and Form Data Submission
+
+### 13. And many more to be added...
+
+## Additional React Setup Information
 
 ### `npm start`
 
