@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AuthUser from './components/AuthUser';
 
 
 function App() {
@@ -14,6 +15,11 @@ function App() {
               <button className="btn btn-success btn-sm">
                 <i className="fa fa-book"></i>&nbsp;&nbsp;Read More
               </button>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col">
+              <AuthUser/>
             </div>
           </div>
          
