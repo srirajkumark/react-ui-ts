@@ -6,7 +6,7 @@ In this we mainly covered the main concepts related to React using TypeScript.
 
 In the project directory, you can find:
 
-### 1. Create React App Setup
+### 1. React Project Initialization
 
 ### 2. Create React App Setup
 
@@ -30,7 +30,9 @@ In the project directory, you can find:
 
 ### 12. Form Handling and Form Data Submission
 
-### 13. And many more to be added...
+### 13. Conditional Rendering - Login/Logout
+
+### 14. And many more to be added...
 
 ## Additional React Setup Information
 
