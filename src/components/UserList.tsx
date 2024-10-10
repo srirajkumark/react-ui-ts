@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { IUser } from "../models/IUser";
+import { UserService } from "../services/UserService";
 
 interface IState{
     users : IUser[]
@@ -8,36 +9,7 @@ interface IProps{}
 
 let UserList:React.FC = () => {
     let [state, setState] = useState<IState>({
-        users : [
-            {
-                sno : 'AAA101',
-                name : 'Rajan',
-                age : 25,
-                designation : 'Software Engineer',
-                company : 'Infotech'
-            },
-            {
-                sno : 'AAA102',
-                name : 'John',
-                age : 35,
-                designation : 'Sr. Software Engineer',
-                company : 'Infotech'
-            },
-            {
-                sno : 'AAA103',
-                name : 'Willson',
-                age : 45,
-                designation : 'Tech Lead',
-                company : 'Infotech'
-            },
-            {
-                sno : 'AAA104',
-                name : 'Laura',
-                age : 55,
-                designation : 'Manager',
-                company : 'Infotech'
-            }
-        ]
+        users : UserService.getAllUsers()
     });
 
     return(
