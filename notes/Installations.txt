@@ -1,0 +1,5 @@
+Project Setup:
+npx create-react-app react-ui-ts --template=typescript
+
+Axios Setup:
+npm install axios @types/axios

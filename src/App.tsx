@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import AuthUser from './components/AuthUser';
-import UserList from './components/UserList';
 
 
 function App() {
@@ -18,17 +16,7 @@ function App() {
               </button>
             </div>
           </div>
-          {/* <div className="row">
-            <div className="col">
-              <AuthUser/>
-            </div>
-          </div> */}
-
-          <div className="row">
-            <div className="col">
-              <UserList/>
-            </div>
-          </div>
+         
          
         </div>
       </div>
