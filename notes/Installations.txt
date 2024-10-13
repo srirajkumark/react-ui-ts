@@ -3,3 +3,6 @@ npx create-react-app react-ui-ts --template=typescript
 
 Axios Setup:
 npm install axios @types/axios
+
+Convert JSON Placeholders to Type Specific with Interface:
+https://jvilk.com/MakeTypes/

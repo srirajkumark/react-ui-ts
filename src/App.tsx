@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import UserList from './components/UserList';
 
 
 function App() {
@@ -17,7 +18,12 @@ function App() {
             </div>
           </div>
          
-         
+         <div className="row mt-3">
+          <div className="col">
+            <UserList/>
+          </div>
+         </div>
+
         </div>
       </div>
     </React.Fragment>
