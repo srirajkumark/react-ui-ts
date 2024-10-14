@@ -6,3 +6,8 @@ npm install axios @types/axios
 
 Convert JSON Placeholders to Type Specific with Interface:
 https://jvilk.com/MakeTypes/
+
+Install Routing Packages:
+For React.js: npm install react-router-dom
+For React.ts: npm install react-router-dom @types/react-router-dom 
+
