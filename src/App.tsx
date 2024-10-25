@@ -1,31 +1,22 @@
 import React from 'react';
 import './App.css';
 import UserList from './components/UserList';
+import Navbar from './components/Navbar';
+import { Routes , Route, Navigate} from 'react-router-dom';
+import UserDetails from './components/UserDetails';
+import About from './components/About';
 
 
 function App() {
   return (
     <React.Fragment>
-      <div className="container mt-3">
-        <div className="grid">
-          <div className="row">
-            <div className="col">
-              <p className="h3 fw-bold text-success">App Component</p>
-              <p className="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, incidunt possimus quas adipisci eum tenetur quis sint ut animi ullam voluptatibus facere vero aliquam, qui quibusdam dignissimos non voluptate velit!</p>
-              <button className="btn btn-success btn-sm">
-                <i className="fa fa-book"></i>&nbsp;&nbsp;Read More
-              </button>
-            </div>
-          </div>
-         
-         <div className="row mt-3">
-          <div className="col">
-            <UserList/>
-          </div>
-         </div>
-
-        </div>
-      </div>
+      <Navbar/>
+      <Routes>
+        <Route path={'/'} element={<Navigate to={'/contacts/list'}/>}/>
+        <Route path={'/contacts/list'} element={<UserList/>}/>
+        <Route path={'/contacts/:id'} element={<UserDetails/>}/>
+        <Route path={'/about'} element={<About/>}/>
+      </Routes>
     </React.Fragment>
   );
 }
