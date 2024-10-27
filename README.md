@@ -32,7 +32,17 @@ In the project directory, you can find:
 
 ### 13. Conditional Rendering - Login/Logout
 
-### 14. And many more to be added...
+### 14. List Rendering Setup
+
+### 15. List Rendering - Display Table Data
+
+### 16. Services - Using local files
+
+### 17. Axios Installation
+
+### 18. ....
+
+
 
 ## Additional React Setup Information
 
