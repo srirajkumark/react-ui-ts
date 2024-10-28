@@ -40,9 +40,11 @@ In the project directory, you can find:
 
 ### 17. Axios Installation
 
-### 18. ....
+### 18. Server Connection - Fetch Data from Server
 
+### 19. Routing Packages Installation
 
+### 20. ....
 
 ## Additional React Setup Information
 
