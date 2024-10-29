@@ -44,7 +44,11 @@ In the project directory, you can find:
 
 ### 19. Routing Packages Installation
 
-### 20. ....
+### 20. Router Configuration Setup
+
+### 21. User Details using Routing
+
+#### =========================================
 
 ## Additional React Setup Information
 
